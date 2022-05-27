@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IARLOCA</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="script.js"></script>
+</head>
+<body onload="getlogin()">
+
+
+
+
+
+    
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-4 offset-4 text-center">
+                <a href="index.html" class="link-dark">
+                    <h1>IARLÓCA FILMS</h1>
+                </a>
+            </div>
+            <div class="col-2 align-items-end" id="">
+                <p id="" onload="">
+                    Bem-vindo, 
+                    <strong id="bemvindo"></strong>
+                    !
+                </p>
+            </div>
+            <div class="col-1">
+                <a href="carrinho.html">
+                    <button type="button" class="btn btn-success text-white">Carrinho</button>
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="cep.html">
+                    <button type="button" class="btn btn-dark text-white">CEP</button>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="row p-4">
+                <div class="col-6">
+                    <img src="massacredaserraeletrica.jpg" alt="" class="card-img ">
+                </div>
+                <div class="col-4 offset-1 ">
+                    <h3 class="">O Massacre da Serra Elétrica</h3>
+                    <p class=""> Em 1973, a polícia texana deu como encerrado o caso de um terrível massacre de 33 pessoas provocado por um homem que usava uma máscara feita de pele humana. Nos anos que se seguiram os policiais foram acusados de fazer uma péssima investigação e de terem matado o cara errado. Só que dessa vez, o único sobrevivente do massacre vai contar em detalhes o que realmente aconteceu na deserta estrada do Texas, quando ele e mais 4 amigos estavam indo visitar o seu avô.</p>
+                    <p class="card-text text-center" id="preço" name="">R$6,00</p> 
+                    
+                    <input type="number" class="form-control" id="qt" value=0>
+                    <div class="col text-center mt-3 ">
+                        <button type="button" class="btn btn-success text-white container-fluid" onclick="addCart3()" id="Carrinho">+ Carrinho</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

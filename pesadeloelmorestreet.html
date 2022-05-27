@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IARLOCA</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="script.js"></script>
+</head>
+<body onload="getlogin();">
+
+
+
+
+
+    
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-4 offset-4 text-center">
+                <a href="index.html" class="link-dark">
+                    <h1>IARLÓCA FILMS</h1>
+                </a>
+            </div>
+            <div class="col-2 align-items-end" id="">
+                <p id="" onload="">
+                    Bem-vindo, 
+                    <strong id="bemvindo"></strong>
+                    !
+                </p>
+            </div>
+            <div class="col-1">
+                <a href="carrinho.html">
+                    <button type="button" class="btn btn-success text-white">Carrinho</button>
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="cep.html">
+                    <button type="button" class="btn btn-dark text-white">CEP</button>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="row p-4">
+                <div class="col-6">
+                    <img src="pesadeloemelmorestreet.jpg" alt="" class="card-img ">
+                </div>
+                <div class="col-4 offset-1 ">
+                    <h3 class=""> Pesadelo em Elmore Street</h3>
+                    <p class=""> Os adolescentes Nancy, Quentin, Kris, Jesse e Dean são amigos que começam a ter o mesmo pesadelo com um homem desfigurado que usa uma luva feita de facas. O homem, Freddy Krueger (Jackie Earle Haley), os aterroriza em sonhos. A única saída é acordar, mas quando um deles morre de forma violenta, os amigos percebem que o sonho é real. A saída, na verdade, é ficar acordado.</p>
+                    <p class="card-text text-center" id="preço" name="">R$8,00</p> 
+                    
+                    <input type="number" class="form-control" id="qt" value=0>
+                    <div class="col text-center mt-3 ">
+                        <button type="button" class="btn btn-success text-white container-fluid" onclick="addCart4()" id="Carrinho">+ Carrinho</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

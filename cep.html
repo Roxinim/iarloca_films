@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IARLOCA</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.5.2/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.5.2/dist/css/glide.theme.min.css">
+    
+</head>
+<body onload="cep(), getlogin()">
+    <div class="container">
+        <div class="row mt-2 ">
+            <div class="col-4 offset-4 text-center">
+                <a href="index.html" class="link-dark">
+                    <h1>IARLÓCA FILMS</h1>
+                </a>
+            </div>
+            <div class="col-2 align-items-end" id="">
+                <p id="" onload="">
+                    Bem-vindo, 
+                    <strong id="bemvindo"></strong>
+                    !
+                </p>
+            </div>
+            <div class="col-1">
+                <a href="carrinho.html">
+                    <button type="button" class="btn btn-success text-white">Carrinho</button>
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="cep.html">
+                    <button type="button" class="btn btn-dark text-white">CEP</button>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col card bg-light p-3 rounded-3">
+                <h3>Consultando CEP</h3>
+                <label for="" class="form-label">CEP</label>
+                <input type="text" class="form-control" id="cep">
+                <small class="fst-italic mb-3">00000-000</small>
+                <label for="" class="form-label">Logradouro</label>
+                <input type="text" class="form-control" id="logradouro">
+                <small class="fst-italic mb-3">Rua</small>
+                <label for="" class="form-label">Bairro</label>
+                <input type="text" class="form-control" id="bairro">
+                <small class="fst-italic mb-3">Bairro</small>
+                <label for="" class="form-label">Localidade</label>
+                <input type="text" class="form-control" id="localidade">
+                <small class="fst-italic mb-3">Cidade</small>
+                <label for="" class="form-label">UF</label>
+                <input type="text" class="form-control" id="uf">
+                <small class="fst-italic mb-3">Estado</small>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

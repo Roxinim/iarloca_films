@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IARLOCA</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="script.js"></script>
+</head>
+<body onload="getlogin()">
+
+
+
+
+
+    
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-4 offset-4 text-center">
+                <a href="index.html" class="link-dark">
+                    <h1>IARLÓCA FILMS</h1>
+                </a>
+            </div>
+            <div class="col-2 align-items-end" id="">
+                <p id="" onload="">
+                    Bem-vindo, 
+                    <strong id="bemvindo"></strong>
+                    !
+                </p>
+            </div>
+            <div class="col-1">
+                <a href="carrinho.html">
+                    <button type="button" class="btn btn-success text-white">Carrinho</button>
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="cep.html">
+                    <button type="button" class="btn btn-dark text-white">CEP</button>
+                </a>
+            </div>
+            
+        </div>
+        <div class="card">
+            <div class="row p-4">
+                <div class="col-6">
+                    <img src="panico.png" alt="" class="card-img ">
+                </div>
+                <div class="col-4 offset-1 ">
+                    <h3 class="">Pânico</h3>
+                    <p class=""> Vinte e cinco anos após uma série de crimes brutais chocar a tranquila Woodsboro, um novo assassino se apropria da máscara de Ghostface e começa a perseguir um grupo de adolescentes para trazer à tona segredos do passado mortal da cidade.</p>
+                    <p class="card-text text-center" id="preço" name="">R$10,00</p> 
+                    
+                    <input type="number" class="form-control" id="qt" value=0>
+                    <div class="col text-center mt-3 ">
+                        <!-- <a href="index.html"> -->
+                            <button type="button" class="btn btn-success text-white container-fluid" id="carrinho" onclick="addCart1()">+ Carrinho</button>
+                        <!-- </a> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
