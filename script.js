@@ -31,7 +31,7 @@
 //         carrinho.addEventListener("click", (e)=>{
 //             let somat = sessionStorage.getItem("totalCart")
 //             sessionStorage.setItem("totalCart", somat+soma);
-//             window.location= "index.html"
+//             window.location= "home.html"
 //     })
 //     })
 // }
@@ -43,7 +43,7 @@ function addCart1(){
     let quantidade = document.getElementById("qt").value;
     let soma = preço * quantidade;
     sessionStorage.setItem("soma1", soma)
-    window.location.replace("index.html");
+    window.location.replace("home.html");
 }
 function addCart2(){
     let  preço = document.getElementById("preço").innerHTML;
@@ -52,7 +52,7 @@ function addCart2(){
     let quantidade = document.getElementById("qt").value;
     let soma = preço * quantidade;
     sessionStorage.setItem("soma2", soma)
-    window.location.replace("index.html");
+    window.location.replace("home.html");
 }
 function addCart3(){
     let  preço = document.getElementById("preço").innerHTML;
@@ -61,7 +61,7 @@ function addCart3(){
     let quantidade = document.getElementById("qt").value;
     let soma = preço * quantidade;
     sessionStorage.setItem("soma3", soma)
-    window.location.replace("index.html");
+    window.location.replace("home.html");
 }
 function addCart4(){
     let  preço = document.getElementById("preço").innerHTML;
@@ -70,7 +70,7 @@ function addCart4(){
     let quantidade = document.getElementById("qt").value;
     let soma = preço * quantidade;
     sessionStorage.setItem("soma4", soma)
-    window.location.replace("index.html");
+    window.location.replace("home.html");
 }
     // sessionStorage.getItem("soma"+i)!== null
     // for (let i = 1; i<=4; i++){
@@ -172,7 +172,7 @@ function login(){
     if (usuario == ""){
         alert("Insira um nome de usuário!")
     } else {
-        window.location.replace ("index.html");
+        window.location.replace ("home.html");
         // o .replace SUBSTITUI a página, deixando um caminho sem volta ,precisa usar parênteses
         sessionStorage.setItem('usuario1', usuario);
         alert("Bem-Vindo, "+ usuario)
